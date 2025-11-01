@@ -1,11 +1,4 @@
 varlist=[1,2,3]
-varset={1,2,3,"A","B","C"}
-vardict={'a':1,'b':2,'c':3}
-vartuple=(1,2,3,4,5)
-print(type(vardict),type(vartuple),type(tuple(varlist)))
-print(vardict['a'])
-
-#List 
 
 varlist.append(4)#[1,2,3,4]
 print(varlist)
